@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<script src="https://npmcdn.com/angular2/bundles/angular2-polyfills.min.js"></script>
+<script src="https://npmcdn.com/systemjs/dist/system.js"></script>
+<script src="https://npmcdn.com/typescript/lib/typescript.js"></script>
+<script src="https://npmcdn.com/@reactivex/rxjs/dist/global/Rx.min.js"></script>
+<script src="https://npmcdn.com/angular2/bundles/angular2.js"></script>
+<script src="https://npmcdn.com/angular2/bundles/router.min.js"></script>
+<script src="https://npmcdn.com/angular2/bundles/http.min.js"></script>
+<script src="config-ts.js"></script>
+<script>
+  System.import('app/main')
+    .then(null, console.error.bind(console));
+</script>
+
+<body>
+  <my-app>Loading...</my-app>
+</body>
+</html>
